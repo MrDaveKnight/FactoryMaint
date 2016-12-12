@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="u_general_event" label="Factory Maintenance Table" max_length="40" name="x_snc_factory_main_factory_maintenance_table" type="collection"/>
+</database>

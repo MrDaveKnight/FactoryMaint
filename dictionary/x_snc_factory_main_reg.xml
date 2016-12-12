@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="u_flowtask" label="Reg" max_length="40" name="x_snc_factory_main_reg" type="collection">
+        <element label="Checked in" max_length="40" name="u_boolean_4" type="boolean"/>
+        <element label="Event" mandatory="true" max_length="32" name="u_reference_1" reference="x_snc_factory_main_factory_maintenance_table" type="reference"/>
+        <element label="Attendee" mandatory="true" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+        <element label="Pad" max_length="32" name="u_reference_3" reference="u_eagle_ii" type="reference"/>
+    </element>
+</database>
